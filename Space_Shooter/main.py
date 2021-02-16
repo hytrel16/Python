@@ -10,21 +10,21 @@ WIN = pygame.display.set_mode((width, height))
 pygame.display.set_caption('SPACE SHOOTER GAME')
 
 # LOAD IMAGES
-RED_SPACE_SHIP = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter_Game/Images/pixel_ship_red_small.png')
-GREEN_SPACE_SHIP = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter_Game/Images/pixel_ship_green_small.png')
-BLUE_SPACE_SHIP = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter_Game/Images/pixel_ship_blue_small.png')
+RED_SPACE_SHIP = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter/Images/pixel_ship_red_small.png')
+GREEN_SPACE_SHIP = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter/Images/pixel_ship_green_small.png')
+BLUE_SPACE_SHIP = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter/Images/pixel_ship_blue_small.png')
 
 # MAIN PLAYER SHIP
-YELLOW_SPACE_SHIP = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter_Game/Images/pixel_ship_yellow.png')
+YELLOW_SPACE_SHIP = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter/Images/pixel_ship_yellow.png')
 
 # LASER
-RED_LASER = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter_Game/Images/pixel_laser_red.png')
-GREEN_LASER = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter_Game/Images/pixel_laser_green.png')
-BLUE_LASER = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter_Game/Images/pixel_laser_blue.png')
-YELLOW_LASER = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter_Game/Images/pixel_laser_yellow.png')
+RED_LASER = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter/Images/pixel_laser_red.png')
+GREEN_LASER = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter/Images/pixel_laser_green.png')
+BLUE_LASER = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter/Images/pixel_laser_blue.png')
+YELLOW_LASER = pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter/Images/pixel_laser_yellow.png')
 
 # BACKGROUND
-BG = pygame.transform.scale(pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter_Game/Images/background-black.png'), (width, height))
+BG = pygame.transform.scale(pygame.image.load('C:/Users/hgf/PycharmProjects/Space_Shooter/Images/background-black.png'), (width, height))
 
 class Laser:
 
@@ -241,6 +241,4 @@ def main_menu():
 
 
 main_menu()
-
-
 
