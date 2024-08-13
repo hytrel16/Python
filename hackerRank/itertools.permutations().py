@@ -3,6 +3,9 @@ S, k = input().split()
 for i in sorted(permutations(S, int(k))):
     print("".join(i))
 
+# itertools.permutations() function in Python generates all possible permutations of a given iterable,
+# such as a list or a string, with a specified length. 
+
 
 # Output:
 # hack 2
